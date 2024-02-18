@@ -1,0 +1,427 @@
+.grid-container{
+    height: 690px;
+    width: 1500px;
+    border: solid 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.card{
+    background: rgb(111,156,197);
+    background: linear-gradient(90deg, rgba(111,156,197,1) 0%, rgba(255,234,155,1) 0%, rgba(135,228,194,1) 100%);
+}
+.p{
+    color: orange;
+    text-shadow: 0px 0px 5px green ;
+    font-family: serif;
+    font-size: 40px;
+    font-weight: 800;
+    position: absolute;
+    top: 40px;
+    left: 690px;
+}
+.para{
+    text-align: center;
+    position: absolute;
+    top: 103px;
+    left: 692px;
+}
+.img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;
+    top: 73px;
+    left: 125px;
+    box-shadow: 0px 0px 5px;
+}
+h1{
+    position: relative;
+    top: 50px;
+    left: 120px;
+    font-family: sans-serif;
+    font-size: 30;
+    font-weight: bold;
+    color: rgb(158, 6, 16);
+}
+.hr1{
+    border: solid 1px;
+    position: relative;
+    top: 25px;
+    left: -7px;
+    width: 245px;
+}
+li::marker{
+    content: '✅';
+}
+.li1{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: rgb(158, 6, 16);
+    font-size: large;
+    font-weight: bold;
+}
+.container2{
+    display: grid;
+    height: 260px;
+    width: 430px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 140px 140px;
+    gap: 0px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.card2{
+    color: white;
+}
+.img2{
+    margin-top: 20px;
+    height: 120px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.footer{
+    background-color: goldenrod;
+    position: relative;
+    top: 67px;
+    left: 0px;
+    text-align: center;
+}
+.box1{
+    height: 50px;
+    width: 500px;
+    background-image: linear-gradient(red 33%,rgb(254, 124, 2)33% 66%,rgb(245, 161, 5)66%);
+    position: absolute;
+}
+.para2{
+    color: rgb(158, 6, 16);
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.hr2{
+    border: dashed;
+    width: 320px;
+    position: relative;
+    top: 65px;
+}
+.container3{
+    height: 180px;
+    width: 350px;
+    position: relative;
+    top: 70px;
+    left: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 90px 90px;
+    border-top: solid 10px orange;
+    border-bottom: solid 10px orange;
+    border-radius: 10px;
+}
+.card3{
+    background-color: tomato;
+    border-radius: 10px;
+}
+.img3{
+    height: 80px;
+    width: 73px;
+    position: relative;
+    left: 6px;
+    box-shadow: 0px 0px 5px;
+}
+.para3{
+    color: rgb(158, 6, 16);
+    position:absolute;
+    top: 200px;
+    left: 90px;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.hr3{
+    background-color: black;
+    height: 2px;
+    width: 150px;
+    position: absolute;
+    top: 240px;
+    left: 90px;
+}
+.octagonp1{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 280px;
+    left: 35px;
+}
+
+.octagonc1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.octagonp2{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 280px;
+    left: 180px;
+}
+.octagonc2{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.octagonp3{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 470px;
+    left: 35px;
+}
+.octagonc3{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.octagonp4{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 470px;
+    left: 180px;
+}
+.octagonc4{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.octagonp5{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 375px;
+    left: 107px;
+    z-index: 1;
+}
+.octagonc5{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.para4{
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 14px;
+    left: 24px;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.para5{
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.para6{
+    color: rgb(158, 6, 16);
+    position: relative;
+    top: 10px;
+    left: 70px;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.hr4{
+    border: dashed;
+    width: 375px;
+    position: relative;
+    top: -25px;
+    left: 10px;
+}
+.container4{
+    background-color: aquamarine;
+    height: 200px;
+    width: 450px;
+    position: relative;
+    top: -20px;
+    left: 23px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: solid 10px orange;
+    border-bottom: solid 10px orange;
+    border-radius: 10px;
+}
+.para7{
+    color: rgb(158, 6, 16);
+    position:absolute;
+    top: 200px;
+    left: 140px;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.hr5{
+    background-color: black;
+    height: 2px;
+    width: 150px;
+    position: absolute;
+    top: 240px;
+    left: 140px;
+}
+.li2{
+    position: relative;
+    top: -10px;
+    color: rgb(158, 6, 16);
+    font-size: larger;
+    font-weight: bold;
+}
+.octagonp6{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 280px;
+    left: 90px;
+}
+.octagonc6{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.octagonp7{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 280px;
+    left: 235px;
+}
+.octagonc7{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.octagonp8{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 470px;
+    left: 90px;
+}
+.octagonc8{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.octagonp9{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 470px;
+    left: 235px;
+}
+.octagonc9{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.octagonp10{
+    background-color: goldenrod;
+    height: 110px;
+    width: 110px;
+    clip-path: polygon(30% 1%, 65% -4%, 100% 30%, 100% 70%, 65% 105%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 375px;
+    left: 162px;
+    z-index: 1;
+}
+.octagonc10{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.para8{
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: px;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    
+}
+.para9{
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 20px;
+    font-family: sans-serif;
+    font-size: small;
+    text-align: center;
+}
